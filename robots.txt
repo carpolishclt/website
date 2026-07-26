@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carpolishclt.com/sitemap.xml
