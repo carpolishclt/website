@@ -691,7 +691,17 @@ details p { margin: 0 0 20px; color: #565c57; }
   .site-nav .nav-cta { margin-left: 0; text-align: center; }
   .hero { min-height: 680px; }
   .hero-proof { grid-template-columns: repeat(2, 1fr); }
-  .split, .contact-grid, .about-story, .results-intro { grid-template-columns: 1fr; }
+  .split,
+.contact-grid,
+.about-story,
+.results-intro {
+  grid-template-columns: 1fr;
+}
+
+.results-meta {
+  justify-self: start;
+  max-width: 100%;
+}
   .card-grid, .testimonial-grid, .value-grid { grid-template-columns: 1fr 1fr; }
   .steps { grid-template-columns: 1fr; }
   .service-detail-grid { grid-template-columns: 1fr; }
